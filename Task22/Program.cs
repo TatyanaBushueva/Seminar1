@@ -17,7 +17,7 @@ void TableSquare(int num)
     int count = 1;
     while (count <= num)
     {
-        Console.WriteLine($"{count,5} {Math.Pow(count, 2),5}");
+        Console.WriteLine($"{count,5} {Math.Pow(count, 2),5}"); //интерполяция
         count++;
     }
 }
